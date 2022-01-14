@@ -3,13 +3,33 @@ body {
 }
 main {
   width: 80%;
-  height: 670px;
   margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+@media only screen and (max-width: 688px) {
+  .students {
+    display: grid;
+    grid-template-columns: repeat(1  , 1fr);
+    grid-gap: 15px;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 10px;
+  }
+  .top-container {
+    width: 100%;
+  }
+}
+.top-div {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.bottom-div {
   background-color: white;
   border-radius: 5px;
 }
-.top-students {
-  padding: 10px 15px;
+/* student CSS Start*/
+.top-container {
+  padding: 10px 20px;
 }
 .section-header {
   font-family: Poppins;
@@ -17,18 +37,19 @@ main {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-  color: #562EFF;
+  color: #562eff;
 }
 .students {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 10px;
 }
 .student-details {
   width: 100%;
   display: flex;
   align-items: center;
-  /* border: 1px solid; */
 }
 .student-details img {
   width: 30%;
@@ -40,4 +61,97 @@ main {
   font-size: 18px;
   line-height: 27px;
   margin-left: 15px;
+}
+/* student CSS end */
+
+/* Blogs CSS Start  */
+.Blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  padding: 10px;
+}
+.blog-details {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.blog-details img {
+  width: 40%;
+}
+.blog-title h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: #000000;
+  margin-left: 15px;
+}
+.blog-details p {
+  color: #9f9f9f;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 15px;
+}
+.blog-details span {
+  color: #562eff;
+}
+/* course style  */
+.course{
+  box-shadow: 1px 1px 2px 0px #e5e5e5;
+  border-radius: 25px;
+}
+.latest-courses{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 28px;
+}
+.course-thumnail img {
+  width: 100%;
+}
+.course-title {
+  font-size: 20px;
+  color: #1e1e1e;
+  font-family: roboto;
+}
+.course-instructor {
+  color: #ed6b4f;
+}
+.course-info {
+  display: flex;
+  align-content: space-around;
+}
+.course-info > div {
+  padding: 0px 15px;
+}
+.fa-star {
+  width: 12.39px;
+  height: 11.81px;
+}
+.filled {
+  color: #ffc014;
+}
+.empty {
+  color: #aeaeae;
+  opacity: 0.25;
+}
+.course-info span {
+  color: #a2a2a2;
+  font-family: Poppins;
+  font-size: 15px;
+}
+.course-duration {
+  color: #ff4a60;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #ffe4e8;
+  padding: 0px 5px;
+}
+.course-duration span {
+  margin-left: 5px;
 }

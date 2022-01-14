@@ -5,53 +5,186 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leader Board</title>
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;500&display=swap"
       rel="stylesheet"
     />
+    <!-- font aweson  -->
+    <script
+      src="https://kit.fontawesome.com/8d5185a105.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- stylesheet -->
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
     <!-- header start -->
     <header></header>
     <!-- header start end -->
+
     <!-- main part start -->
     <main>
-      <section class="top-section">
-        <div class="top-students">
-          <div class="section-header">
-            <h4>Top Students</h4>
+      <div class="top-div">
+        <!-- top student part start -->
+        <section class="students-section">
+          <div class="top-container">
+            <div class="section-header">
+              <h4>Top Students</h4>
+            </div>
+            <div class="students">
+              <div class="student-details">
+                <img src="images/players/player-1.png" alt="" />
+                <h4>John Smit</h4>
+              </div>
+              <div class="student-details">
+                <img src="images/players/player-2.png" alt="" />
+                <h4>Pro Rassel</h4>
+              </div>
+              <div class="student-details">
+                <img src="images/players/player-3.png" alt="" />
+                <h4>Abu Sufian</h4>
+              </div>
+              <div class="student-details">
+                <img src="images/players/player-4.png" alt="" />
+                <h4>Sanjedul Karim</h4>
+              </div>
+              <div class="student-details">
+                <img src="images/players/player-5.png" alt="" />
+                <h4>Maruf Ahmed</h4>
+              </div>
+              <div class="student-details">
+                <img src="images/players/player-6.png" alt="" />
+                <h4>Mujahdul Islam</h4>
+              </div>
+            </div>
           </div>
-          <div class="students">
-            <div class="student-details">
-              <img src="images/players/player-1.png" alt="" />
-              <h4>John Smit</h4>
+        </section>
+        <!-- top student part End -->
+
+        <!-- top Blog part start -->
+        <section class="blogs-section">
+          <div class="top-container">
+            <div class="section-header">
+              <h4>Top Blogs</h4>
             </div>
-            <div class="student-details">
-              <img src="images/players/player-2.png" alt="" />
-              <h4>Pro Rassel</h4>
-            </div>
-            <div class="student-details">
-              <img src="images/players/player-3.png" alt="" />
-              <h4>Abu Sufian</h4>
-            </div>
-            <div class="student-details">
-              <img src="images/players/player-4.png" alt="" />
-              <h4>Sanjedul Karim</h4>
-            </div>
-            <div class="student-details">
-              <img src="images/players/player-5.png" alt="" />
-              <h4>Maruf Ahmed</h4>
-            </div>
-            <div class="student-details">
-              <img src="images/players/player-6.png" alt="" />
-              <h4>Mujahdul Islam</h4>
+            <div class="Blogs">
+              <div class="blog-details">
+                <img src="images/blogs/blog-1.png" alt="" />
+                <div class="blog-title">
+                  <h3>13 of My Favorite UI/UX Goodies</h3>
+                  <p>By <span>Danny Sapio</span></p>
+                </div>
+              </div>
+              <div class="blog-details">
+                <img src="images/blogs/blog-2.png" alt="" />
+                <div class="blog-title">
+                  <h3>UI cheat sheet: list vs grids</h3>
+                  <p>By <span>Tess Gadd </span></p>
+                </div>
+              </div>
+              <div class="blog-details">
+                <img src="images/blogs/blog-3.png" alt="" />
+                <div class="blog-title">
+                  <h3>7 typography tips for interface design</h3>
+                  <p>By <span>Jeremiah Lam</span></p>
+                </div>
+              </div>
+              <div class="blog-details">
+                <img src="images/blogs/blog-4.png" alt="" />
+                <div class="blog-title">
+                  <h3>Your logo is copied</h3>
+                  <p>By <span>Ferdinand Vogler</span></p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <!-- top Blog part end -->
+      </div>
+
+      <div class="bottom-div">
+        <!-- top course section start-->
+        <section class="top-course-section">
+          <div class="top-container">
+            <div class="section-header">
+              <h4>Latest Course</h4>
+            </div>
+            <div class="latest-courses">
+              <div class="course">
+                <div class="course-thumnail">
+                  <img src="images/courses/course-1.png" alt="" />
+                </div>
+                <div class="course-details">
+                  <h3 class="course-title">React - the Complete Guide 2020</h3>
+                  <p class="course-instructor">Reed Krakoff</p>
+                  <div class="course-info">
+                    <div>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star empty"></i>
+                      <span>4.5</span>
+                    </div>
+                    <div class="course-duration">
+                      <i class="far fa-clock"></i><span>1:30 hr</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="course">
+                <div class="course-thumnail">
+                  <img src="images/courses/course-2.png" alt="" />
+                </div>
+                <div class="course-details">
+                  <h3 class="course-title">Powerpoint 2020 Master Powerpoint Cour</h3>
+                  <p class="course-instructor">Walter Scott</p>
+                  <div class="course-info">
+                    <div>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star empty"></i>
+                      <span>4.5</span>
+                    </div>
+                    
+                    <div class="course-duration">
+                      <i class="far fa-clock"></i><span>1:20 hr</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="course">
+                <div class="course-thumnail">
+                  <img src="images/courses/course-3.png" alt="" />
+                </div>
+                <div class="course-details">
+                  <h3 class="course-title">The Complete JavaScript Course 2020</h3>
+                  <p class="course-instructor">Reed Krakoff</p>
+                  <div class="course-info">
+                    <div>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star filled"></i>
+                      <i class="fas fa-star empty"></i>
+                      <span>4.5</span>
+                    </div>
+                    <div class="course-duration">
+                      <i class="far fa-clock"></i><span>1:30 hr</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- top course section end-->
+      </div>
     </main>
     <!-- main part end -->
   </body>
