@@ -1,11 +1,24 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #F3F1FF;
+  background-color: #f3f1ff;
 }
 #nav-icon {
   font-weight: 200;
   font-size: 30px;
 }
-.author{
-  color: #9F9F9F;
+.author {
+  color: #9f9f9f;
+}
+.course-rating i {
+  color: #ffc014;
+}
+.course-duration > span {
+  background-color: #ffe4e8;
+  border-radius: 20px;
+  color: #ed6b4f;
+}
+.course-inform {
+  box-shadow: 0px 0px 5px 2px lightgrey;
+  border-radius: 10px;
+  margin: 5px;
 }
